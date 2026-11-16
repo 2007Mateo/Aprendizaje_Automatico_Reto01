@@ -1,0 +1,44 @@
+{
+  "revision": "2026-11-15",
+  "source": "Excel de preparación y matrices suministrados por el equipo; GIRS INEC 2024",
+  "observaciones_originales": 221,
+  "matriz_principal": 215,
+  "matriz_sensibilidad": 204,
+  "incidencias": 17,
+  "variables": [
+    "CSB_cobertura",
+    "DIF_proporcion",
+    "ORG_actividad",
+    "RI_log_p95",
+    "BOTADERO_indicador"
+  ],
+  "unicidad_perfiles": {
+    "215": 141,
+    "204": 137
+  },
+  "archivo_fuente_original_213_columnas_incluido": false,
+  "sha256": {
+    "00_enunciado/Reto01.pdf": "fcd23a7957c409c8ed3b017536159f110d50b53ef19298c51e92ab86d35b12aa",
+    "00_enunciado/formatoInforme.pdf": "6e2edc3c4dacdd1809c15c20ec0f4bb556a4b85b97bbe4c916304cbecb2cb9dc",
+    "01_hito1/Auditoria_Colab_Hito1.ipynb": "7bed67de36eb8f80bcf5f5004ba07c16a626e9a521b37291f5d4ee868188cee6",
+    "01_hito1/Auditoria_Colab_resultados.pdf": "25b07ec9c34aac80df919bce9cd64e166c0b6d94b06eebc52ebe3be551d59bd9",
+    "01_hito1/Informe_Hito1.pdf": "a504fafe32638fbfdb34a3d9d40bac5e5e507c627bf25d5a905d092c79fa758b",
+    "01_hito1/Propuesta_inicial.pdf": "51519d2d09d7a597f96b9a4f9475bd047db1568d6167c78212b3a249a3e3a1e4",
+    "02_hito2/Libros_matrices.xlsx": "d3298b44e00206368a478e2a22de5cd80e669eca8c2879e6a4adb6c5fef9f530",
+    "02_hito2/Libros_preparacion_221.xlsx": "3a892214c272a81038ecde71b1302f4e37cba8fac25cf27e84c34632288c531b",
+    "02_hito2/codigo/verificar_hito2.py": "796aff2252433bfee8bd0ef360b237b5059445c26a93e6c531b7a1ede658601d",
+    "02_hito2/codigo/verificar_origen.py": "4d542594d6d8c51279db29e03ac651fd2003df8eebe57ffd97b74da0e9115916",
+    "02_hito2/datos/base_preparada_221.csv": "6dbd7aa53b4f93ed5c09b2037275abc2272250221eee52ebd1b892b48ffdcb59",
+    "02_hito2/datos/fuente_relevante_221.csv": "79d03782c66ea0557725f8b94e12bac28f1720eb2ef93b0e19261efbb6f42fb7",
+    "02_hito2/datos/incidencias_17.csv": "9be5375897a23c365c2a31ed01b0b2a37fb94d9656870ef10a1e370606165a2c",
+    "02_hito2/matrices/claves_204.csv": "7a91842daeb72cf12bde59c19d76c92201da5d74ffdfaa6e11f1e67348ff2a46",
+    "02_hito2/matrices/claves_215.csv": "281bf60d2c8006512ee701f8e242532f3fde6405fe1c6f7464f1eece22eb1071",
+    "02_hito2/matrices/matriz_204.csv": "b7714dd72dcefa7431a9f357211a822b97ac5db4f2b5b5aac4a5e6058303ee3f",
+    "02_hito2/matrices/matriz_215.csv": "456f3679487818ddc0f90ea49574d00d748b63c5bedf1cb8b6e1e3283513a7b5",
+    "02_hito2/notebooks/Hito2_Preparacion_y_Plan.ipynb": "768323c639ef48b8bc9322d43b605b0bf1d56ddd0ffdf17ede6d1afed6cd8d0d",
+    "03_hito3_preparacion/experimentos_hito3.py": "01091506f7afd304d14b9420e92c29d9a57e1314823ae01b912754bedffae372",
+    "README.md": "7957385397c28779137e0b0092ac73a3f8498bc01b44fcbf2b586b858b61d25c",
+    "docs/HITO2_INFORME_Y_PLAN.md": "a0fa5f827a06815d5065f995a0add82c2a433643a81a2bd587e5fdbe3f1bf969",
+    "docs/MAPA_HITOS_Y_ACTIVIDADES.md": "18daf0c632be50fae52db2e5daed89d52c44946544531deb26ea05630bb0032a"
+  }
+}
