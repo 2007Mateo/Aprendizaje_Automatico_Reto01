@@ -1,30 +1,36 @@
 # Reto 01 · Aprendizaje automático inicial · GIRS 2024
 
-Trabajo académico de Ciencia de Datos (PUCE): **Ecuador y sus residuos: descubrir perfiles de gestión municipal**. Fuente: edición INEC GIRS 2024. Los grupos son exploratorios: no representan clasificaciones oficiales, rankings ni efectos causales.
+**PUCE — Ciencia de Datos · Reto 01 (Andrés Merino, período 2026-2)**
 
-## Seguimiento por HITOS y ACTIVIDADES GUÍA (Reto01.pdf)
+Objetivo: explorar perfiles de gestión de residuos de los municipios de Ecuador a partir de **la edición 2024 de la base GIRS del INEC**. Los grupos no son rankings, clasificaciones oficiales ni resultados causales.
 
-| Hito | Actividades | Estado |
+## Estado real del proyecto
+
+| Hito (Reto01.pdf, página 4) | Actividades guía | Estado |
 |---|---|---|
-| **Hito 1.** Auditoría y propuesta de variables | 1-2 | Completo en lo esencial; datos contrastados con Colab |
-| **Hito 2.** Matriz preparada y plan K-Means/Ward/PCA | 3-4 y plan 5-7 | **Preparado y verificado** |
-| **Hito 3.** Comparación, métricas, perfiles, PCA y estabilidad | 5-8 | Pendiente |
-| **Hito 4.** Notebook reproducible e informe divulgativo | Integración de 1-8 | Pendiente |
+| **Hito 1.** Auditoría y propuesta de características | **1-2** | Documentado y auditado con salidas de Colab. |
+| **Hito 2.** Matriz preparada y propuesta de K-Means, jerárquico y PCA | **3-4 + plan 5-7** | **Entregado**: escenarios de 215 y 204 municipios; plan detallado. |
+| **Hito 3.** Resultados, perfiles, gráficas y estabilidad | **5-8** | Pendiente de ejecutar/evaluar; código de experimentos preparado. |
+| **Hito 4.** Notebook e informe divulgativo finales | **Integración 1-8** | Pendiente. |
 
-## Matriz Hito 2
-Cinco columnas numéricas: `CSB_cobertura`, `DIF_proporcion`, `ORG_actividad`, `RI_log_p95`, `BOTADERO_indicador`. Los códigos, nombres y provincias van **fuera** de las distancias.
+### Organización
+- `00_enunciado`: rúbrica y formato PUCE; PDF institucional original.
+- `01_hito1`: informe, notebook y salidas de auditoría.
+- `02_hito2/datos`: fuente parcial relevante de 41 columnas, base preparada de 221 y 17 incidencias trazables.
+- `02_hito2/matrices`: matrices **sin identificadores** de 215 y 204 y sus archivos de claves separados.
+- `02_hito2/notebooks`: validación reproducible y presentación de las matrices para el Hito 2.
+- `02_hito2/codigo`: verificaciones automáticas.
+- `03_hito3_preparacion`: script de experimentos para el siguiente hito, **no es un resultado final**.
+- `docs`: plan metodológico y seguimiento de hitos y actividades.
 
-- **221** municipios auditados; **17** incidencias trazadas: 5 CSB sin denominador, 1 proporción DIF inválida (Piñas), 11 ceros ambiguos de RI.
-- **215** municipios = matriz principal provisional, conserva 11 ceros ambiguos como informados, con bandera.
-- **204** municipios = análisis conservador de sensibilidad, excluye esos once registros adicionales.
-- Los cuatro CSB superiores a uno **no** fueron recortados ni se eliminan municipios para maximizar silueta.
-- RI se expresa con cociente de unidades compatibles y logaritmo normalizado por el mismo q95 (referencia 204) en ambos escenarios.
-- No se incluyen RI y RIR a la vez, ni totales con todos sus componentes.
+### Decisión metodológica
+La **matriz 215** es principal **provisionalmente**; los 11 ceros de RI ambiguos siguen documentados y no se sustituyen por cantidades inventadas. La **204** es sensibilidad conservadora. Excluir 17 filas no significa borrar municipios del registro auditado de 221.
 
-## Plan aprobado en Hito 2
-Comparar K-Means (semillas 11, 23, 37, 52, 97; `n_init=30`) y aglomerativo Ward-euclidiano para `k=2,3,4,5,6` sobre la **misma matriz de cinco dimensiones**. Evaluar silueta en cinco dimensiones (nunca en PCA 2D), tamaños, estabilidad por ARI y comparación 204/215; PCA de dos componentes exclusivamente para interpretar y visualizar con varianza explicada. Como sensibilidad adicional estudiar estandarización Z-score e influencia de volumen `CRR`.
+Las matrices **no incluyen CantonId, Provin, ni NombreCantón**. La característica `RI_log_p95` fue construida con referencia fija del percentil 95 de los 204 casos para que ambos escenarios sean directamente comparables. El resto conserva sus unidades/proporciones y banderas de atipicidad; no se recorta `CSB>1`.
 
-## Fuente y advertencia
-El archivo **completo** del INEC tiene 221×213; el extracto del equipo contiene 41 columnas de interés y NO lo sustituye. Para trazabilidad reproducir a partir de la edición oficial 2024 `BDD_GIRS_2024_VF.csv` (separador punto y coma, decimal coma, Windows-1252, `CantonId` texto).
+### Para ejecutar
+1. Colab: abrir `02_hito2/notebooks/Hito2_Preparacion_y_Plan.ipynb`, cargar o clonar el repositorio y seguir sus celdas.
+2. Validar: `python 02_hito2/codigo/verificar_hito2.py` desde la raíz del repositorio.
+3. Hito 3: ejecutar `python 03_hito3_preparacion/experimentos_hito3.py` desde la raíz (requiere NumPy, scikit-learn y matplotlib), revisar los resultados y **no** escoger grupos solo por silueta.
 
-La entrega local completa (documentos, libros del equipo y CSV) está disponible en el paquete creado en la conversación. Este repositorio se publica en fases para conservar evidencia y no afirmar resultados de agrupamiento antes del Hito 3.
+**Advertencia de reproducibilidad:** la edición CSV de 213 columnas no acompaña este paquete. `fuente_relevante_221.csv` preserva las 41 columnas tomadas de los libros del equipo, no sustituye al CSV original. La documentación del INEC debe permitir localizar la edición oficial y reproducir la auditoría completa.

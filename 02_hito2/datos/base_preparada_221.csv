@@ -1,4 +1,4 @@
-CantonId,NombreCantón,Provin,Estricto_204,Alternativo_215,Motivo_exclusion,CSB_original,CSB_estado,DIF_proporcion,DIF_estado,ORG_indicador,RI_intensidad,RI_estado,RI_log_p95,BOTADERO_indicador,CRR_ton_mes_contexto,ln1p_CRR_contexto,CSB_gt1,DIF_ton_dia,MR453_ton_dia,RI_kg_mes,Material_recuperado_si
+﻿CantonId,NombreCantón,Provin,Estricto_204,Alternativo_215,Motivo_exclusion,CSB_original,CSB_estado,DIF_proporcion,DIF_estado,ORG_indicador,RI_intensidad,RI_estado,RI_log_p95,BOTADERO_indicador,CRR_ton_mes_contexto,ln1p_CRR_contexto,CSB_gt1,DIF_ton_dia,MR453_ton_dia,RI_kg_mes,Material_recuperado_si
 101,CUENCA,1,1,1,,0.86,OK,0,OK,1,0.00944294814626067,OK,0.3257674441777564,0,14128.2,9.555998856949083,0,0,470.94,133411.86,1
 102,GIRÓN,1,1,1,,0.28,OK,1,OK,1,0.018044573643410854,OK,0.5052413857149919,0,129,4.867534450455582,0,4.3,4.3,2327.75,1
 103,GUALACEO,1,1,1,,1,OK,0,OK,0,0,OK,0,0,480,6.175867270105761,0,0,16,0,0

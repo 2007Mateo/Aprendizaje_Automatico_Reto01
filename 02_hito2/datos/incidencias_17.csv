@@ -1,4 +1,4 @@
-CantonId,NombreCantón,Provin,Estricto_204,Alternativo_215,Motivo_exclusion,CSB_original,CSB_estado,DIF_proporcion,DIF_estado,ORG_indicador,RI_intensidad,RI_estado,RI_log_p95,BOTADERO_indicador,CRR_ton_mes_contexto,ln1p_CRR_contexto,CSB_gt1,DIF_ton_dia,MR453_ton_dia,RI_kg_mes,Material_recuperado_si
+﻿CantonId,NombreCantón,Provin,Estricto_204,Alternativo_215,Motivo_exclusion,CSB_original,CSB_estado,DIF_proporcion,DIF_estado,ORG_indicador,RI_intensidad,RI_estado,RI_log_p95,BOTADERO_indicador,CRR_ton_mes_contexto,ln1p_CRR_contexto,CSB_gt1,DIF_ton_dia,MR453_ton_dia,RI_kg_mes,Material_recuperado_si
 404,MIRA,4,0,1,RI cero con material recuperado marcado,0.85,OK,1,OK,1,0,CERO AMBIGUO,0,0,113.7,4.742320024135325,0,3.79,3.79,0,1
 502,LA MANÁ,5,0,1,RI cero con material recuperado marcado,0.36,OK,0,OK,0,0,CERO AMBIGUO,0,0,1140,7.039660349862076,0,0,38,0,1
 707,HUAQUILLAS,7,0,1,RI cero con material recuperado marcado,1,OK,0,OK,0,0,CERO AMBIGUO,0,0,925.8,6.831737792558221,0,0,30.86,0,1
