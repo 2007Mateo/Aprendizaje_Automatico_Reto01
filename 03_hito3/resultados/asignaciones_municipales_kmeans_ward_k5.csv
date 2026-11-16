@@ -1,0 +1,216 @@
+﻿CantonId,NombreCantón,Provin,grupo_kmeans,nombre_grupo,grupo_ward,silueta_individual,CSB_original,DIF_proporcion,ORG_indicador,RI_kg_mes,RI_intensidad,RI_estado,BOTADERO_indicador,CRR_ton_mes_contexto
+101,CUENCA,1,4,"Actividad orgánica, poca diferenciación",0,0.616422,0.86,0,1,133411.86,0.00944294814626067,OK,0,14128.2
+102,GIRÓN,1,1,Diferenciada y actividad orgánica,1,0.380902,0.28,1,1,2327.75,0.018044573643410854,OK,0,129
+103,GUALACEO,1,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,480
+104,NABÓN,1,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,75
+105,PAUTE,1,0,Sin diferenciación ni actividad orgánica,3,0.794639,1,0,0,46,0.0001277777777777778,OK,0,360
+106,PUCARA,1,4,"Actividad orgánica, poca diferenciación",0,0.568249,0.67,0,1,166.67,0.002469185185185185,OK,0,67.5
+107,SAN FERNANDO,1,1,Diferenciada y actividad orgánica,1,0.418618,0.45,1,1,0,0,OK,0,100.8
+108,SANTA ISABEL,1,1,Diferenciada y actividad orgánica,1,0.166818,1,0.6706976744186046,1,716.75,0.0022224806201550386,OK,0,322.5
+109,SIGSIG,1,0,Sin diferenciación ni actividad orgánica,3,0.774479,1,0,0,250,0.0013528138528138528,OK,0,184.8
+110,OÑA,1,3,Diferenciada sin actividad orgánica,4,0.658269,1,1,0,0,0,OK,0,16.5
+111,CHORDELEG,1,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,113.1
+112,EL PAN,1,0,Sin diferenciación ni actividad orgánica,3,0.663909,0.67,0,0,0,0,OK,0,15.3
+113,SEVILLA DE ORO,1,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,30
+114,GUACHAPALA,1,0,Sin diferenciación ni actividad orgánica,3,0.743475,0.83,0,0,0,0,OK,0,27
+115,CAMILO PONCE ENRÍQUEZ,1,0,Sin diferenciación ni actividad orgánica,3,0.680209,0.7,0,0,1.67,2.319444444444444e-06,OK,0,720
+201,GUARANDA,2,4,"Actividad orgánica, poca diferenciación",0,0.522813,0.62,0,1,0.58,5.523809523809524e-07,OK,0,1050
+202,CHILLANES,2,2,"Botadero predominante, poca diferenciación",2,0.08185,0.45,0,1,0,0,OK,1,270
+203,CHIMBO,2,0,Sin diferenciación ni actividad orgánica,3,0.524031,0.43,0,0,0,0,OK,0,136.8
+204,ECHEANDÍA,2,0,Sin diferenciación ni actividad orgánica,3,0.785705,1,0,0,258.33,0.0007175833333333333,OK,0,360
+205,SAN MIGUEL,2,2,"Botadero predominante, poca diferenciación",2,0.73098,1,0,0,0,0,OK,1,318.9
+206,CALUMA,2,0,Sin diferenciación ni actividad orgánica,3,0.658175,0.66,0,0,0,0,OK,0,420
+207,LAS NAVES,2,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,180
+301,AZOGUES,3,4,"Actividad orgánica, poca diferenciación",0,0.550194,1,0,1,31918.33,0.021278886666666667,OK,0,1500
+302,BIBLIÁN,3,1,Diferenciada y actividad orgánica,1,0.390484,1.17,1,1,4886.25,0.02755922165820643,OK,0,177.3
+303,CAÑAR,3,1,Diferenciada y actividad orgánica,1,0.335038,0.14,1,1,7762.5,0.01936751497005988,OK,0,400.8
+304,LA TRONCAL,3,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,1500
+305,EL TAMBO,3,1,Diferenciada y actividad orgánica,1,0.444311,0.98,1,1,2737.86,0.02740600600600601,OK,0,99.9
+306,DÉLEG,3,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,75.6
+307,SUSCAL,3,1,Diferenciada y actividad orgánica,1,0.433758,1.04,1,1,2322.84,0.026978397212543557,OK,0,86.1
+401,TULCÁN,4,0,Sin diferenciación ni actividad orgánica,3,0.459738,0.32,0,0,5348.64,0.00278575,OK,0,1920
+402,BOLÍVAR,4,4,"Actividad orgánica, poca diferenciación",0,0.516158,0.81,0.19052631578947368,1,506.25,0.0017763157894736842,OK,0,285
+403,ESPEJO,4,1,Diferenciada y actividad orgánica,1,0.472627,0.93,1,1,0,0,OK,0,195
+404,MIRA,4,1,Diferenciada y actividad orgánica,1,0.479203,0.85,1,1,0,0,CERO AMBIGUO,0,113.7
+405,MONTÚFAR,4,1,Diferenciada y actividad orgánica,1,0.493344,1,1,1,3208.33,0.004456013888888889,OK,0,720
+406,SAN PEDRO DE HUACA,4,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,150
+501,LATACUNGA,5,0,Sin diferenciación ni actividad orgánica,3,0.489467,1.46,0,0,1915.77,0.0006793510638297872,OK,0,2820
+502,LA MANÁ,5,0,Sin diferenciación ni actividad orgánica,3,0.483275,0.36,0,0,0,0,CERO AMBIGUO,0,1140
+503,PANGUA,5,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,207.6
+504,PUJILI,5,0,Sin diferenciación ni actividad orgánica,3,0.720977,0.78,0,0,0,0,OK,0,662.1
+505,SALCEDO,5,0,Sin diferenciación ni actividad orgánica,3,0.545786,1,0,0,12035.36,0.01534730935985718,OK,0,784.2
+506,SAQUISILÍ,5,3,Diferenciada sin actividad orgánica,4,0.559734,0.5,1,0,0,0,OK,0,300
+507,SIGCHOS,5,4,"Actividad orgánica, poca diferenciación",0,0.325773,1,0.3422222222222222,1,2.24,1.6592592592592594e-05,OK,0,135
+601,RIOBAMBA,6,1,Diferenciada y actividad orgánica,1,0.474344,0.64,1,1,2475,0.000375,OK,0,6600
+602,ALAUSI,6,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,327.6
+603,COLTA,6,0,Sin diferenciación ni actividad orgánica,3,0.776427,0.92,0,0,0,0,OK,0,288
+604,CHAMBO,6,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,172.8
+605,CHUNCHI,6,1,Diferenciada y actividad orgánica,1,0.436651,0.5,1,1,0.5,4.166666666666667e-06,OK,0,120
+606,GUAMOTE,6,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,217.2
+607,GUANO,6,0,Sin diferenciación ni actividad orgánica,3,0.564769,0.5,0,0,16.92,4.338461538461539e-05,OK,0,390
+608,PALLATANGA,6,2,"Botadero predominante, poca diferenciación",2,0.73098,1,0,0,0,0,OK,1,150
+609,PENIPE,6,4,"Actividad orgánica, poca diferenciación",0,0.532047,1,0,1,0,0,OK,0,74.4
+610,CUMANDÁ,6,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,360
+701,MACHALA,7,0,Sin diferenciación ni actividad orgánica,3,0.730366,0.8,0,0,0,0,OK,0,10919.4
+702,ARENILLAS,7,0,Sin diferenciación ni actividad orgánica,0,0.221189,0.24,0,0,46958,0.04802904776516314,OK,0,977.7
+703,ATAHUALPA,7,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,81
+704,BALSAS,7,1,Diferenciada y actividad orgánica,1,0.497634,1,1,1,843.25,0.008390547263681592,OK,0,100.5
+705,CHILLA,7,0,Sin diferenciación ni actividad orgánica,3,0.794361,0.99,0,0,0,0,OK,0,19.2
+706,EL GUABO,7,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,1277.1
+707,HUAQUILLAS,7,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,CERO AMBIGUO,0,925.8
+708,MARCABELÍ,7,1,Diferenciada y actividad orgánica,1,0.350067,0.16,1,1,843.25,0.006302316890881913,OK,0,133.8
+709,PASAJE,7,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,1800
+711,PORTOVELO,7,3,Diferenciada sin actividad orgánica,4,0.387079,0.11,1,0,0,0,OK,0,318.9
+712,SANTA ROSA,7,0,Sin diferenciación ni actividad orgánica,3,0.39942,0.23,0,0,10083.33,0.00630720585475699,OK,0,1598.7
+713,ZARUMA,7,3,Diferenciada sin actividad orgánica,4,0.658269,1,1,0,0,0,OK,0,381
+714,LAS LAJAS,7,0,Sin diferenciación ni actividad orgánica,3,0.663909,0.67,0,0,0,0,OK,0,120
+801,ESMERALDAS,8,2,"Botadero predominante, poca diferenciación",2,0.73098,1,0,0,0,0,OK,1,5653.2
+802,ELOY ALFARO,8,3,Diferenciada sin actividad orgánica,4,0.64434,1,1,0,2042.67,0.00243175,OK,0,840
+803,MUISNE,8,2,"Botadero predominante, poca diferenciación",2,0.355689,0.09,0,0,3208.33,0.005570017361111111,OK,1,576
+804,QUININDÉ,8,0,Sin diferenciación ni actividad orgánica,3,0.693611,1,0,0,13831.58,0.005763158333333333,OK,0,2400
+805,SAN LORENZO,8,2,"Botadero predominante, poca diferenciación",0,0.125469,0.44,0,0,152083.33,0.20277777333333333,OK,1,750
+806,ATACAMES,8,0,Sin diferenciación ni actividad orgánica,3,0.744106,0.83,0,0,151.8,0.00011244444444444446,OK,0,1350
+807,RIOVERDE,8,0,Sin diferenciación ni actividad orgánica,3,0.547216,0.47,0,0,0,0,OK,0,1050
+901,GUAYAQUIL,9,0,Sin diferenciación ni actividad orgánica,3,0.599407,0.97,0,0,1420069.17,0.011648924823798085,OK,0,121905.6
+902,ALFREDO BAQUERIZO MORENO (JUJÁN),9,2,"Botadero predominante, poca diferenciación",2,0.585244,0.59,0.14285714285714285,0,0,0,OK,1,420
+903,BALAO,9,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,459
+904,BALZAR,9,2,"Botadero predominante, poca diferenciación",2,0.73098,1,0,0,0,0,OK,1,298.5
+905,COLIMES,9,2,"Botadero predominante, poca diferenciación",2,0.73098,1,0,0,0,0,OK,1,360
+906,DAULE,9,0,Sin diferenciación ni actividad orgánica,3,0.680197,0.7,0,0,0,0,OK,0,5100
+907,DURÁN,9,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,10500
+908,EL EMPALME,9,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,1659.6
+909,EL TRIUNFO,9,2,"Botadero predominante, poca diferenciación",2,0.73098,1,0,0,0,0,OK,1,1200
+910,MILAGRO,9,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,4800
+911,NARANJAL,9,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,1470
+912,NARANJITO,9,2,"Botadero predominante, poca diferenciación",2,0.45466,0.28,0,0,0,0,OK,1,1042.5
+913,PALESTINA,9,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,270
+914,PEDRO CARBO,9,4,"Actividad orgánica, poca diferenciación",0,0.600502,1,0,1,11818.67,0.008472164874551972,OK,0,1395
+916,SAMBORONDÓN,9,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,3945.9
+918,SANTA LUCÍA,9,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,675
+919,SALITRE (URBINA JADO),9,2,"Botadero predominante, poca diferenciación",2,0.73098,1,0,0,0,0,OK,1,879
+920,SAN JACINTO DE YAGUACHI,9,3,Diferenciada sin actividad orgánica,4,0.658269,1,1,0,0,0,OK,0,2040
+921,PLAYAS,9,2,"Botadero predominante, poca diferenciación",2,0.73098,1,0,0,0,0,OK,1,1050
+922,SIMÓN BOLÍVAR,9,3,Diferenciada sin actividad orgánica,4,0.650875,0.73,1,0,0,0,OK,0,348
+923,CORONEL MARCELINO MARIDUEÑA,9,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,255
+924,LOMAS DE SARGENTILLO,9,2,"Botadero predominante, poca diferenciación",2,0.702967,0.81,0,0,0,0,OK,1,481.5
+925,NOBOL,9,2,"Botadero predominante, poca diferenciación",2,0.736441,0.95,0,0,0,0,OK,1,616.2
+927,GENERAL ANTONIO ELIZALDE,9,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,240
+928,ISIDRO AYORA,9,2,"Botadero predominante, poca diferenciación",2,0.73639,0.96,0,0,0,0,OK,1,270
+1001,IBARRA,10,0,Sin diferenciación ni actividad orgánica,3,0.477468,0.35,0,0,0,0,OK,0,5318.4
+1002,ANTONIO ANTE,10,1,Diferenciada y actividad orgánica,1,0.433327,0.49,1,1,0,0,OK,0,681.9
+1003,COTACACHI,10,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,415.2
+1004,OTAVALO,10,1,Diferenciada y actividad orgánica,1,0.467095,0.62,1,1,279.5,0.0001607430411778238,OK,0,1738.8
+1005,PIMAMPIRO,10,0,Sin diferenciación ni actividad orgánica,3,0.6174,0.59,0,0,0,0,OK,0,180
+1006,SAN MIGUEL DE URCUQUÍ,10,1,Diferenciada y actividad orgánica,1,0.459525,1,1,1,0,0,OK,0,360
+1101,LOJA,11,1,Diferenciada y actividad orgánica,1,0.481963,0.6,1,1,7948.92,0.0018650242838037588,OK,0,4262.1
+1102,CALVAS,11,3,Diferenciada sin actividad orgánica,2,0.08232,0.56,1,0,97.5,0.0003353973168214654,OK,1,290.7
+1103,CATAMAYO,11,4,"Actividad orgánica, poca diferenciación",0,0.526071,0.63,0,1,0,0,OK,0,900
+1104,CELICA,11,3,Diferenciada sin actividad orgánica,4,0.666979,0.94,1,0,0,0,OK,0,165
+1105,CHAGUARPAMBA,11,2,"Botadero predominante, poca diferenciación",2,0.716032,0.85,0,0,0,0,OK,1,43.2
+1106,ESPÍNDOLA,11,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,102.6
+1107,GONZANAMÁ,11,3,Diferenciada sin actividad orgánica,4,0.644517,0.71,1,0,0,0,OK,0,75
+1108,MACARÁ,11,0,Sin diferenciación ni actividad orgánica,0,0.036546,0.3,0,0,135200,0.3660980232873003,OK,0,369.3
+1109,PALTAS,11,3,Diferenciada sin actividad orgánica,4,0.56871,1,1,0,3680,0.008572094106685302,OK,0,429.3
+1110,PUYANGO,11,1,Diferenciada y actividad orgánica,1,0.515155,0.8,1,1,903.33,0.003703690036900369,OK,0,243.9
+1111,SARAGURO,11,3,Diferenciada sin actividad orgánica,4,0.658269,1,1,0,0,0,OK,0,210
+1112,SOZORANGA,11,0,Sin diferenciación ni actividad orgánica,3,0.776427,0.92,0,0,0,0,OK,0,47.1
+1113,ZAPOTILLO,11,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,165
+1114,PINDAL,11,0,Sin diferenciación ni actividad orgánica,3,0.739242,0.82,0,0,0,0,OK,0,60
+1115,QUILANGA,11,1,Diferenciada y actividad orgánica,2,0.188778,0.86,0.9827586206896551,1,0,0,OK,1,17.4
+1116,OLMEDO,11,3,Diferenciada sin actividad orgánica,4,0.388399,0.93,1,0,716.86,0.027785271317829457,OK,0,25.8
+1201,BABAHOYO,12,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,CERO AMBIGUO,0,4200
+1202,BABA,12,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,307.8
+1203,MONTALVO,12,3,Diferenciada sin actividad orgánica,2,0.081542,0.5,1,0,0,0,OK,1,630
+1204,PUEBLOVIEJO,12,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,755.4
+1205,QUEVEDO,12,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,5280
+1206,URDANETA,12,2,"Botadero predominante, poca diferenciación",2,0.73098,1,0,0,0,0,OK,1,609
+1207,VENTANAS,12,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,CERO AMBIGUO,0,1650
+1208,VÍNCES,12,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,1590
+1209,PALENQUE,12,0,Sin diferenciación ni actividad orgánica,3,0.773285,0.91,0,0,0,0,OK,0,291
+1210,BUENA FÉ,12,0,Sin diferenciación ni actividad orgánica,3,0.755264,0.86,0,0,0,0,OK,0,1440
+1211,VALENCIA,12,4,"Actividad orgánica, poca diferenciación",0,0.532047,1,0,1,0,0,CERO AMBIGUO,0,1020
+1212,MOCACHE,12,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,825
+1213,QUINSALOMA,12,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,CERO AMBIGUO,0,243.3
+1301,PORTOVIEJO,13,0,Sin diferenciación ni actividad orgánica,3,0.711091,0.76,0,0,0,0,OK,0,10500
+1302,BOLÍVAR,13,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,600
+1303,CHONE,13,2,"Botadero predominante, poca diferenciación",2,0.695601,0.8,0,0,2800,0.0009824561403508772,OK,1,2850
+1304,EL CARMEN,13,0,Sin diferenciación ni actividad orgánica,3,0.773285,0.91,0,0,0,0,OK,0,2070
+1305,FLAVIO ALFARO,13,2,"Botadero predominante, poca diferenciación",2,0.64489,0.67,0,0,0,0,OK,1,390
+1306,JIPIJAPA,13,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,912
+1307,JUNÍN,13,0,Sin diferenciación ni actividad orgánica,3,0.518853,0.42,0,0,75,0.00017705382436260624,OK,0,423.6
+1308,MANTA,13,0,Sin diferenciación ni actividad orgánica,3,0.590943,0.77,0,0,98950.08,0.011143027027027028,OK,0,8880
+1310,PAJÁN,13,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,510
+1311,PICHINCHA,13,0,Sin diferenciación ni actividad orgánica,3,0.784531,1,0,0,141.67,0.0007870555555555555,OK,0,180
+1313,SANTA ANA,13,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,330
+1314,SUCRE,13,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,1050
+1315,TOSAGUA,13,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,600
+1316,24 DE MAYO,13,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,270
+1317,PEDERNALES,13,2,"Botadero predominante, poca diferenciación",2,0.731402,0.91,0,0,0,0,OK,1,1650
+1318,OLMEDO,13,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,73.8
+1319,PUERTO LÓPEZ,13,2,"Botadero predominante, poca diferenciación",2,0.621327,0.62,0,0,0,0,OK,1,600
+1320,JAMA,13,0,Sin diferenciación ni actividad orgánica,3,0.762717,0.88,0,0,0,0,OK,0,415.8
+1321,JARAMIJÓ,13,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,780
+1322,SAN VICENTE,13,2,"Botadero predominante, poca diferenciación",2,0.084279,1,0,1,0,0,OK,1,600
+1401,MORONA,14,1,Diferenciada y actividad orgánica,1,0.459525,1,1,1,0,0,CERO AMBIGUO,0,606
+1402,GUALAQUIZA,14,4,"Actividad orgánica, poca diferenciación",0,0.159617,0,0,1,10504,0.11671111111111111,OK,0,90
+1403,LIMÓN INDANZA,14,1,Diferenciada y actividad orgánica,1,0.4874,1,1,1,1041.67,0.01483860398860399,OK,0,70.2
+1404,PALORA,14,1,Diferenciada y actividad orgánica,1,0.235766,1,0.75,1,4243.33,0.035361083333333335,OK,0,120
+1405,SANTIAGO,14,0,Sin diferenciación ni actividad orgánica,0,0.317062,1,0,0,4874.78,0.04682785782901056,OK,0,104.1
+1406,SUCÚA,14,1,Diferenciada y actividad orgánica,1,0.436575,0.5,1,1,0,0,OK,0,204.6
+1407,HUAMBOYA,14,0,Sin diferenciación ni actividad orgánica,3,0.789257,1,0,0,37.93,0.0004958169934640523,OK,0,76.5
+1408,SAN JUAN BOSCO,14,4,"Actividad orgánica, poca diferenciación",0,0.437962,1,0,1,1552.5,0.043125,OK,0,36
+1409,TAISHA,14,0,Sin diferenciación ni actividad orgánica,3,0.772208,1,0,0,132.5,0.0014722222222222222,OK,0,90
+1410,LOGROÑO,14,1,Diferenciada y actividad orgánica,1,0.028133,0.45,0.5714285714285714,1,0,0,OK,0,105
+1411,PABLO SEXTO,14,0,Sin diferenciación ni actividad orgánica,3,0.380181,0.17,0,0,39.58,0.0008795555555555555,OK,0,45
+1412,TIWINTZA,14,0,Sin diferenciación ni actividad orgánica,3,0.773812,1,0,0,83.33,0.0013888333333333333,OK,0,60
+1501,TENA,15,1,Diferenciada y actividad orgánica,1,0.475176,0.72,1,1,28366.67,0.0206228062522719,OK,0,1375.5
+1503,ARCHIDONA,15,0,Sin diferenciación ni actividad orgánica,3,0.662378,0.87,0,0,2702.74,0.007641334464235227,OK,0,353.7
+1504,EL CHACO,15,0,Sin diferenciación ni actividad orgánica,0,0.277328,1,0,0,6052.08,0.057638857142857144,OK,0,105
+1507,QUIJOS,15,0,Sin diferenciación ni actividad orgánica,3,0.409965,0.23,0,0,0,0,OK,0,77.1
+1509,CARLOS JULIO AROSEMENA TOLA,15,1,Diferenciada y actividad orgánica,1,0.256953,1,1,1,6521,0.11623885918003565,OK,0,56.1
+1601,PASTAZA,16,1,Diferenciada y actividad orgánica,1,0.50889,0.74,1,1,14665.88,0.011516199450333725,OK,0,1273.5
+1602,MERA,16,0,Sin diferenciación ni actividad orgánica,3,0.623282,0.6,0,0,0,0,CERO AMBIGUO,0,204
+1603,SANTA CLARA,16,1,Diferenciada y actividad orgánica,1,0.48531,1,1,1,87.21,0.0026427272727272727,OK,0,33
+1604,ARAJUNO,16,0,Sin diferenciación ni actividad orgánica,3,0.703064,1,0,0,907.25,0.005214080459770115,OK,0,174
+1701,QUITO,17,3,Diferenciada sin actividad orgánica,4,0.662511,0.84,0.9805411606665718,0,104182.09,0.0017025804574878208,OK,0,61190.7
+1702,CAYAMBE,17,3,Diferenciada sin actividad orgánica,4,0.494012,0.35,1,0,517.92,0.000332,OK,0,1560
+1703,MEJIA,17,4,"Actividad orgánica, poca diferenciación",0,0.395082,0.98,0.254071661237785,1,40975,0.02224484256243214,OK,0,1842
+1704,PEDRO MONCAYO,17,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,451.2
+1705,RUMIÑAHUI,17,1,Diferenciada y actividad orgánica,1,0.495818,0.89,1,1,4859.16,0.0013168455284552846,OK,0,3690
+1707,SAN MIGUEL DE LOS BANCOS,17,4,"Actividad orgánica, poca diferenciación",0,0.262456,1,0.08333333333333333,1,35500,0.09861111111111111,OK,0,360
+1708,PEDRO VICENTE MALDONADO,17,1,Diferenciada y actividad orgánica,1,0.493902,1,1,1,4037.92,0.012028358653559727,OK,0,335.7
+1709,PUERTO QUITO,17,1,Diferenciada y actividad orgánica,1,0.459525,1,1,1,0,0,CERO AMBIGUO,0,360
+1801,AMBATO,18,0,Sin diferenciación ni actividad orgánica,3,0.793254,1,0,0,1816.67,0.00022822774155454215,OK,0,7959.9
+1802,BAÑOS DE AGUA SANTA,18,4,"Actividad orgánica, poca diferenciación",0,0.581477,1,0,1,8799.54,0.015967229178007622,OK,0,551.1
+1803,CEVALLOS,18,2,"Botadero predominante, poca diferenciación",2,0.73098,1,0,0,0,0,OK,1,180
+1804,MOCHA,18,0,Sin diferenciación ni actividad orgánica,3,0.725756,0.79,0,0,0,0,OK,0,65.4
+1807,SAN PEDRO DE PELILEO,18,4,"Actividad orgánica, poca diferenciación",0,0.614979,0.94,0,1,6037.31,0.008385152777777778,OK,0,720
+1808,SANTIAGO DE PÍLLARO,18,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,510
+1809,TISALEO,18,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,180
+1901,ZAMORA,19,1,Diferenciada y actividad orgánica,1,0.159505,0.96,0.6620428751576293,1,1000,0.002101723413198823,OK,0,475.8
+1902,CHINCHIPE,19,3,Diferenciada sin actividad orgánica,4,0.658269,1,1,0,0,0,OK,0,109.8
+1903,NANGARITZA,19,1,Diferenciada y actividad orgánica,1,0.455814,1,1,1,2300,0.02358974358974359,OK,0,97.5
+1904,YACUAMBI,19,1,Diferenciada y actividad orgánica,1,0.488477,1,1,1,521.68,0.014491111111111109,OK,0,36
+1905,YANTZAZA (YANZATZA),19,1,Diferenciada y actividad orgánica,1,0.195557,1,1,1,100192.71,0.2083441671865253,OK,0,480.9
+1906,EL PANGUI,19,2,"Botadero predominante, poca diferenciación",2,0.49786,0.37,0,0,0,0,OK,1,225
+1907,CENTINELA DEL CÓNDOR,19,3,Diferenciada sin actividad orgánica,4,0.659301,0.77,1,0,0,0,OK,0,132
+1908,PALANDA,19,1,Diferenciada y actividad orgánica,1,0.36516,0.66,1,1,6421.25,0.053510416666666664,OK,0,120
+2001,SAN CRISTÓBAL,20,1,Diferenciada y actividad orgánica,2,0.23955,0.56,1,1,16190,0.030838095238095237,OK,1,525
+2002,ISABELA,20,0,Sin diferenciación ni actividad orgánica,0,0.050061,2.13,0.475,0,31500,0.13125,OK,0,240
+2003,SANTA CRUZ,20,1,Diferenciada y actividad orgánica,1,0.224043,0.28,1,1,58911.92,0.13477904369709448,OK,0,437.1
+2101,LAGO AGRIO,21,0,Sin diferenciación ni actividad orgánica,3,0.472634,0.59,0,0,32303.87,0.016938739447328405,OK,0,1907.1
+2102,GONZALO PIZARRO,21,0,Sin diferenciación ni actividad orgánica,0,0.235374,0.7,0,0,8400.83,0.06863423202614378,OK,0,122.4
+2103,PUTUMAYO,21,0,Sin diferenciación ni actividad orgánica,0,0.196997,1,0,0,8875.83,0.09188229813664596,OK,0,96.6
+2104,SHUSHUFINDI,21,3,Diferenciada sin actividad orgánica,4,0.600668,1,1,0,6063.42,0.0061808562691131495,OK,0,981
+2105,SUCUMBÍOS,21,0,Sin diferenciación ni actividad orgánica,3,0.561233,0.68,0,0,520.35,0.011486754966887417,OK,0,45.3
+2106,CASCALES,21,1,Diferenciada y actividad orgánica,1,0.459525,1,1,1,0,0,OK,0,162
+2107,CUYABENO,21,1,Diferenciada y actividad orgánica,1,0.274117,0.48,1,1,8500,0.10119047619047619,OK,0,84
+2201,ORELLANA,22,2,"Botadero predominante, poca diferenciación",2,0.736441,0.95,0,0,0,0,OK,1,2250
+2202,AGUARICO,22,1,Diferenciada y actividad orgánica,2,0.231718,1,1,1,848.5,0.0325095785440613,OK,1,26.1
+2203,LA JOYA DE LOS SACHAS,22,0,Sin diferenciación ni actividad orgánica,3,0.787318,0.96,0,0,0,0,OK,0,1050
+2204,LORETO,22,0,Sin diferenciación ni actividad orgánica,3,0.796252,1,0,0,0,0,OK,0,394.5
+2301,SANTO DOMINGO,23,4,"Actividad orgánica, poca diferenciación",0,0.55576,0.88,0.027582324795947088,1,0,0,OK,0,10659
+2302,LA CONCORDIA,23,4,"Actividad orgánica, poca diferenciación",0,0.476925,0.52,0.07398515931907464,1,0,0,CERO AMBIGUO,0,1374.6
+2401,SANTA ELENA,24,2,"Botadero predominante, poca diferenciación",2,0.73098,1,0,0,0,0,OK,1,3900
+2402,LA LIBERTAD,24,2,"Botadero predominante, poca diferenciación",2,0.73639,0.96,0,0,0,0,OK,1,3604.2
+2403,SALINAS,24,2,"Botadero predominante, poca diferenciación",2,0.731402,0.91,0,0,0,0,OK,1,3900

@@ -1,0 +1,16 @@
+{
+  "SHA256_resultados.json": "d8aa80225f79b31a7a24b96ca234cb19c33c55926d276ad3a0576c9582a9cb28",
+  "asignaciones_municipales_kmeans_ward_k5.csv": "a7f03d53d5543f1ada661a1f7dc049fa516f03eca567478efd4930ad576bc68e",
+  "comparacion_kmeans_ward_204_215.csv": "3b3461301c6aac44312833a9ef23c9a10a3268c52007e2d528151b89b619d857",
+  "control_integridad.json": "d29982fd5010aa0b502f23839c6ff8039dbd852ff28f929106eaaabab626da86",
+  "diagnostico_escala_y_modelo.json": "12a7db9fa361029c6df501c989256841e82e6327513bf8cc03f1ccca45b70946",
+  "municipios_representativos_k5.csv": "4c3f718ba584b7cba88e5adecb67448b116557568cdb5f1cb047f56bb82f9f51",
+  "municipios_silueta_negativa_k5.csv": "1a5b0f95005daf83caed7366ba3bed6140e1779147d6e13753fc73e8694679e5",
+  "pca_coordenadas_215.csv": "8bf48df717b3b29ac566e1675a9a5d9c2dc68ef596368d512e2e8705736d0331",
+  "pca_varianza_pesos_contribuciones.csv": "ca1fcc17d2a2e2848e275cba4a12b718275bbf8348fffe955536f2f22b3017e8",
+  "perfiles_kmeans_k5_215.csv": "9da81cd699d97e3ecefc734c997718dfe544b047c6899984db1941b36e5ee8e0",
+  "resumen_hito3_para_equipo.json": "0b005fe3340be502975ac2942731753d0f8acd7518f0b7a35c706d6f46a1132b",
+  "semillas_kmeans.csv": "b6982d92aea15f18ccfdc69febc237efed3077d8bc91f901e18d1f5c7082e1cf",
+  "sensibilidad_204_vs_215.csv": "8f345897fdab463366f0187fffe7381458629006cf7718a01b9a9422c73b2b70",
+  "sensibilidad_escalado_absolutos_volumen.csv": "340b7975d5f48b2fc98d82a60dd610938ecc62d04f12a1e17975ddf435b7cef6"
+}

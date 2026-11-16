@@ -1,0 +1,11 @@
+﻿algoritmo,k,n_comunes,ARI_215_contra_204,igualdad_optima_municipios,cambios_optimos_municipios
+K-Means,2,204,1.0,204,0
+K-Means,3,204,1.0,204,0
+K-Means,4,204,1.0,204,0
+K-Means,5,204,0.841207,179,25
+K-Means,6,204,1.0,204,0
+Ward,2,204,1.0,204,0
+Ward,3,204,1.0,204,0
+Ward,4,204,1.0,204,0
+Ward,5,204,1.0,204,0
+Ward,6,204,1.0,204,0

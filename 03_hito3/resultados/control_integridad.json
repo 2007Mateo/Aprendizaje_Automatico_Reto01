@@ -1,0 +1,66 @@
+{
+  "origen": "INEC GIRS 2024; matrices derivadas Hito 2",
+  "escenarios": {
+    "215": {
+      "filas": "215",
+      "columnas": 5,
+      "identificadores_unicos": 215,
+      "perfiles_vectores_unicos": 141,
+      "minimos": {
+        "CSB_cobertura": 0.0,
+        "DIF_proporcion": 0.0,
+        "ORG_actividad": 0.0,
+        "RI_log_p95": 0.0,
+        "BOTADERO_indicador": 0.0
+      },
+      "maximos": {
+        "CSB_cobertura": 2.13,
+        "DIF_proporcion": 1.0,
+        "ORG_actividad": 1.0,
+        "RI_log_p95": 1.777178,
+        "BOTADERO_indicador": 1.0
+      }
+    },
+    "204": {
+      "filas": "204",
+      "columnas": 5,
+      "identificadores_unicos": 204,
+      "perfiles_vectores_unicos": 137,
+      "minimos": {
+        "CSB_cobertura": 0.0,
+        "DIF_proporcion": 0.0,
+        "ORG_actividad": 0.0,
+        "RI_log_p95": 0.0,
+        "BOTADERO_indicador": 0.0
+      },
+      "maximos": {
+        "CSB_cobertura": 2.13,
+        "DIF_proporcion": 1.0,
+        "ORG_actividad": 1.0,
+        "RI_log_p95": 1.777178,
+        "BOTADERO_indicador": 1.0
+      }
+    }
+  },
+  "incidencias": 17,
+  "algoritmos": [
+    "KMeans",
+    "Jerarquico Ward euclidiano"
+  ],
+  "k": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "semillas": [
+    11,
+    23,
+    37,
+    52,
+    97
+  ],
+  "n_init": 30,
+  "scikit_learn": "1.8.0"
+}

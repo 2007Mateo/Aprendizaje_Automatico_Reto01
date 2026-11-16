@@ -1,0 +1,16 @@
+﻿id_grupo,perfil,representatividad,CantonId,NombreCantón,Provin,distancia_a_centroide,silueta_individual
+0,Sin diferenciación ni actividad orgánica,1,1320,JAMA,13,0.1067,0.7627
+0,Sin diferenciación ni actividad orgánica,2,1209,PALENQUE,12,0.1094,0.7733
+0,Sin diferenciación ni actividad orgánica,3,1304,EL CARMEN,13,0.1094,0.7733
+1,Diferenciada y actividad orgánica,1,1601,PASTAZA,16,0.0884,0.5089
+1,Diferenciada y actividad orgánica,2,1501,TENA,15,0.2068,0.4752
+1,Diferenciada y actividad orgánica,3,1110,PUYANGO,11,0.2271,0.5152
+2,"Botadero predominante, poca diferenciación",1,1303,CHONE,13,0.0721,0.6956
+2,"Botadero predominante, poca diferenciación",2,924,LOMAS DE SARGENTILLO,9,0.0921,0.703
+2,"Botadero predominante, poca diferenciación",3,1105,CHAGUARPAMBA,11,0.0988,0.716
+3,Diferenciada sin actividad orgánica,1,1701,QUITO,17,0.1196,0.6625
+3,Diferenciada sin actividad orgánica,2,1907,CENTINELA DEL CÓNDOR,19,0.1297,0.6593
+3,Diferenciada sin actividad orgánica,3,922,SIMÓN BOLÍVAR,9,0.1405,0.6509
+4,"Actividad orgánica, poca diferenciación",1,101,CUENCA,1,0.0627,0.6164
+4,"Actividad orgánica, poca diferenciación",2,1807,SAN PEDRO DE PELILEO,18,0.1281,0.615
+4,"Actividad orgánica, poca diferenciación",3,914,PEDRO CARBO,9,0.1824,0.6005

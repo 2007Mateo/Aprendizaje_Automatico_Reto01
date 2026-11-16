@@ -1,0 +1,54 @@
+{
+  "medianas_CRR_ton_mes": {
+    "Sin diferenciación ni actividad orgánica": 390.0,
+    "Diferenciada y actividad orgánica": 186.15,
+    "Botadero predominante, poca diferenciación": 600.0,
+    "Diferenciada sin actividad orgánica": 318.9,
+    "Actividad orgánica, poca diferenciación": 810.0
+  },
+  "kruskal_log1p_CRR": {
+    "estadistico": 12.402443,
+    "p_descriptivo": 0.014596540658809604,
+    "nota": "Asociacion descriptiva, NO prueba causal; los grupos no son muestras aleatorias"
+  },
+  "pca_varianza_pct": [
+    46.6633,
+    18.0605,
+    14.6495,
+    11.3849,
+    9.2418
+  ],
+  "pca_varianza_acumulada_pct": [
+    46.6633,
+    64.7238,
+    79.3733,
+    90.7582,
+    100.0
+  ],
+  "silueta_kmeans_k5": 0.5935067764523089,
+  "silueta_ward_k5": 0.5786671264737365,
+  "ari_kmeans_ward_k5": 0.8790700988429987,
+  "siluetas_negativas": 0,
+  "grupo_kmeans_nombres": {
+    "0": "Sin diferenciación ni actividad orgánica",
+    "1": "Diferenciada y actividad orgánica",
+    "2": "Botadero predominante, poca diferenciación",
+    "3": "Diferenciada sin actividad orgánica",
+    "4": "Actividad orgánica, poca diferenciación"
+  },
+  "RI_absoluto_q95_referencia_204_kg_mes": 35020.58049999998,
+  "scaler_zscore_215_media": [
+    0.8416279069767438,
+    0.28468393982286516,
+    0.28837209302325584,
+    0.16698421914410683,
+    0.15813953488372093
+  ],
+  "scaler_zscore_215_escala": [
+    0.26441449343309387,
+    0.4407021873426033,
+    0.45300510923017456,
+    0.3403096043039523,
+    0.36487178897591016
+  ]
+}

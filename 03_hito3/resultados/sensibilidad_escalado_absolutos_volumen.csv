@@ -1,0 +1,7 @@
+﻿algoritmo,experimento,k,n,silueta_en_su_propia_matriz,ARI_vs_matriz_principal,coincidencias_optimas,tamanos_ordenados
+K-Means,Z-score de cinco variables,5,215,0.497109,0.828187,185,16;17;30;52;100
+K-Means,RI absoluto en lugar de relativo,5,215,0.521095,0.684649,169,19;28;28;60;80
+K-Means,Añadir ln(1+CRR) estandarizado,5,215,0.294487,0.34037,116,25;25;42;54;69
+Ward,Z-score de cinco variables,5,215,0.483381,0.785966,184,13;27;33;52;90
+Ward,RI absoluto en lugar de relativo,5,215,0.530479,0.873927,200,18;20;27;44;106
+Ward,Añadir ln(1+CRR) estandarizado,5,215,0.283428,0.312182,121,22;26;40;49;78
