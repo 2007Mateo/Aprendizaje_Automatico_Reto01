@@ -19,10 +19,14 @@ La numeración de **actividades** no equivale a la de **hitos**.
 - [x] Elegir cinco indicadores no redundantes.
 - [x] Preparar matrices de 215 y 204, conservar la fuente relevante y claves.
 - [x] Definir y dejar reproducible un plan de comparación K-Means/Ward/PCA.
-- [ ] Ejecutar al menos tres k para ambos métodos en la **misma** matriz (se proponen cinco: 2-6).
-- [ ] Calcular silueta sobre la matriz de agrupamiento, tamaños y estabilidad entre semillas.
-- [ ] Calcular PCA y explicar componentes/varianza; usar proyección solo para visualizar.
-- [ ] Etiquetar grupos con descripciones de gestión y valores originales, sin ranking.
-- [ ] Comparar escenarios 215 vs 204 y efecto del tamaño de la operación.
+- [x] Ejecutar al menos tres k para ambos métodos en la **misma** matriz (se proponen cinco: 2-6).
+- [x] Calcular silueta sobre la matriz de agrupamiento, tamaños y estabilidad entre semillas.
+- [x] Calcular PCA y explicar componentes/varianza; usar proyección solo para visualizar.
+- [x] Etiquetar grupos con descripciones de gestión y valores originales, sin ranking.
+- [x] Comparar escenarios 215 vs 204 y efecto del tamaño de la operación.
 - [ ] Elaborar y revisar informe final divulgativo en LaTeX (APA 7 y formato PUCE).
 - [ ] Completar integrantes, referencias, evidencias y entrega del aula virtual.
+
+## Hito 3 concluido como borrador técnico
+
+Las actividades guía **5–8** ya están ejecutadas, evaluadas, visualizadas e interpretadas en [`03_hito3/`](../03_hito3/README.md). Se prepararon matrices de comparación, análisis de sensibilidad, PCA y perfiles sin convertir clusters en ranking municipal. **Hito 4** queda a cargo de la compañera responsable del notebook integral y del informe divulgativo final; este estado no equivale a haber entregado Hito 4.
