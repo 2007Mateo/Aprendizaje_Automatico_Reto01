@@ -8,8 +8,8 @@
 |---|---|---|---|
 | 1 | Auditoría inicial, 4–8 características, plan justificado | 1 auditar, 2 seleccionar | Avances hechos y auditados mediante Colab |
 | 2 | Matriz preparada y propuesta K-Means / jerárquico / PCA | 3 preparar, 4 evitar redundancia; plan de 5–7 | Responsable: equipo coordinado por el estudiante; preparado y revisable |
-| 3 | Borrador con tabla comparativa, perfiles, visualizaciones y estabilidad | Ejecutar 5 (agrupamiento), 6 (evaluación), 7 (PCA), 8 (comunicación) | Estudiante, **aún no iniciado / esperar orden** |
-| 4 | Entrega final de notebook reproducible y **informe divulgativo** | Integración y resultados de 1–8 | Compañero; inicia revisión de antecedentes, cierra tras recibir Hito 3 |
+| 3 | Borrador con tabla comparativa, perfiles, visualizaciones y estabilidad | Ejecutar 5 (agrupamiento), 6 (evaluación), 7 (PCA), 8 (comunicación) | Estudiante, **ejecutado y publicado**: resultados y borrador técnico disponible |
+| 4 | Entrega final de notebook reproducible y **informe divulgativo** | Integración y resultados de 1–8 | Compañera responsable del documento final; ya dispone de Hito 3, pendiente del producto divulgativo y notebook integral |
 
 ### Revisión prioritaria para el compañero: Hito 2
 
@@ -40,7 +40,7 @@ Leer **en este orden**:
 
 ### Qué recibirá el compañero del Hito 3 para cerrar Hito 4
 
-Cuando el estudiante termine Hito 3 y lo publique, recibirá: configuraciones y semillas, tablas comparativas de K-Means y jerárquico para al menos tres k entre 2–6, silueta calculada en matriz de clustering, tamaños, estabilidad entre semillas y escenarios, PCA con varianza explicada y cargas, gráficos, perfiles en unidades originales, ejemplos, limitaciones y propuestas. Con ello integrará el notebook de Colab reproducible y el informe dirigido a técnicos municipales en el formato PUCE LaTeX (bibliografía .bib, APA 7), de acuerdo con el enunciado.
+El Hito 3 ya está publicado en [`03_hito3/`](../03_hito3/README.md). La responsable de Hito 4 dispone de: configuraciones y semillas, tablas comparativas de K-Means y jerárquico para al menos tres k entre 2–6, silueta calculada en matriz de clustering, tamaños, estabilidad entre semillas y escenarios, PCA con varianza explicada y cargas, gráficos, perfiles en unidades originales, ejemplos, limitaciones y propuestas. Con ello integrará el notebook de Colab reproducible y el informe dirigido a técnicos municipales en el formato PUCE LaTeX (bibliografía .bib, APA 7), de acuerdo con el enunciado.
 
 ### Enlaces Colab (Drive privado del estudiante)
 
@@ -55,3 +55,7 @@ Los enlaces de Drive no necesariamente sirven al compañero si no se ha otorgado
 ## Control de calidad antes de entrega final
 
 Verificar que el notebook final pueda ejecutarse en un runtime de Colab desde cero, que las figuras coincidan con las tablas y que no se presente un ranking, efecto causal o clasificación oficial. Los resultados deben explicarse en el contexto de prácticas municipales y reconocer incertidumbre y disponibilidad.
+
+### Actualización 15 de noviembre de 2026: material de Hito 3
+
+La carpeta [`03_hito3/`](../03_hito3/README.md) tiene el [borrador técnico PDF](../03_hito3/documentacion/Informe_Tecnico_Hito3.pdf), [notebook reproducible](../03_hito3/notebooks/Hito3_Clustering_PCA_Perfiles_GIRS_2024.ipynb), [resultados CSV](../03_hito3/resultados/) y [figuras](../03_hito3/figuras/). Además existe una [nota de traspaso](../03_hito3/documentacion/NOTA_PARA_HITO4.md) y [bibliografía .bib](../03_hito3/documentacion/referencias.bib) para la compañera del Hito 4. Mantener separadas las actividades guía 5–8 del **Hito 4 final**. No usar los nombres de clusters como ranking.
