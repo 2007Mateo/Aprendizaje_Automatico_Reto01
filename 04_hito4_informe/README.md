@@ -1,12 +1,34 @@
-# Informe divulgativo — revisión editorial del 20-11-2026
+# Hito 4 · Integración de la entrega final (GIRS 2024)
 
-Esta carpeta contiene la **reconstrucción LaTeX del Word redactado por el equipo** (`Informe_Reto01.docx`) conforme a `formatoInforme.pdf` y la rúbrica de `Reto01.pdf`.
+**PUCE · Aprendizaje Automático Inicial · equipo: Isabel Paguay, Mateo Vera y Martín Andrade.**
 
-- [PDF corregido](InformeReto01_PUCE_Revisado.pdf): 11 páginas A4, Montserrat, identidad PUCE, tablas y figuras referenciadas, bibliografía APA 7.
-- [Proyecto completo de LaTeX](InformeReto01_PUCE_Proyecto_LaTeX.zip): `main.tex`, `referencias.bib`, logo extraído del formato de clase, figuras empleadas, README y lista de cambios.
+Este directorio conserva las versiones editoriales anteriores y agrega el notebook final auditado. El trabajo compara **K-Means y Ward** con `k=2..6`, dos escenarios de **215 y 204** municipios y PCA sobre cinco indicadores. El agrupamiento se evalúa en cinco dimensiones; los perfiles son exploratorios y no representan un ranking municipal.
 
-**Correcciones metodológicas:** comparación de tamaños sin equiparar etiquetas arbitrarias de K-Means y Ward; tabla con todas las combinaciones k=2–6; mejor exposición de perfiles y propuestas, más gráfico de varianza acumulada PCA.
+## Contenido disponible en GitHub
 
-**Estado de integración:** la versión editorial está compilada y revisada. Todavía se debe contrastar con el **notebook final de Colab**, que según indicación del docente partirá del **CSV ya limpio**. No presentar una eventual diferencia entre cuaderno y PDF como resultado validado. Si cambian datos o métricas, actualizar también este informe.
+- [Notebook final auditado](Reto01_GIRS_2024_Colab_Final_AUDITADO.ipynb): cuaderno de 27 celdas listo para Google Colab; lee el CSV preparado de la edición 2024 y contrasta las cifras del informe.
+- [Informe editorial anterior](InformeReto01_PUCE_Revisado.pdf): documento previo a la corrección bibliográfica de la entrega definitiva; **no** confundir con el PDF final.
+- [Proyecto LaTeX de la revisión anterior](InformeReto01_PUCE_Proyecto_LaTeX.zip): antecedentes de edición.
 
-No se ha modificado el Word de la compañera. Los documentos docentes originales no se republican en el ZIP.
+## Archivos definitivos que faltan por subir a GitHub
+
+Los siguientes archivos **no están publicados aquí** todavía y no deben presentarse como existentes en el repositorio:
+
+1. `Informe_Reto01_PUCE_ENTREGA_DEFINITIVA.pdf` — PDF final en formato PUCE con ajustes APA 7.
+2. `Reto01_GIRS_2024_Resultados_Colab.zip` — archivo ZIP generado por la ejecución real en Colab: 8 imágenes PNG, 10 tablas CSV y 1 JSON.
+3. Opcionalmente, `Reto01_ENTREGA_FINAL_AULA_VIRTUAL.zip` — paquete con los dos productos obligatorios.
+
+Las huellas SHA-256 y los tamaños se registran en [CONTROL_ARCHIVOS_FINALES.md](CONTROL_ARCHIVOS_FINALES.md) para cotejar las cargas pendientes. Una vez añadidos, conviene actualizar también el README de la raíz.
+
+## Cifras de referencia comprobadas
+
+| Control | Valor |
+| --- | ---: |
+| K-Means, silueta k=5 | 0.593507 |
+| Ward, silueta k=5 | 0.578667 |
+| ARI K-Means frente a Ward | 0.879070 |
+| ARI medio entre semillas | 0.994993 |
+| Sensibilidad de muestras 215/204 (ARI) | 0.841207 |
+| PCA, variación explicada PC1 + PC2 | 64.7238 % |
+
+Se conservan las decisiones documentadas en los Hitos 1–3; no se sustituyen el informe o las métricas por valores inventados.
