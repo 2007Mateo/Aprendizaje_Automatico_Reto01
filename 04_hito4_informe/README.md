@@ -1,34 +1,42 @@
-# Hito 4 · Integración de la entrega final (GIRS 2024)
+# Hito 4 · Entrega final del Reto 01 — GIRS 2024
 
-**PUCE · Aprendizaje Automático Inicial · equipo: Isabel Paguay, Mateo Vera y Martín Andrade.**
+**PUCE · Ingeniería en Ciencia de Datos · Isabel Paguay, Mateo Vera y Martín Andrade**
 
-Este directorio conserva las versiones editoriales anteriores y agrega el notebook final auditado. El trabajo compara **K-Means y Ward** con `k=2..6`, dos escenarios de **215 y 204** municipios y PCA sobre cinco indicadores. El agrupamiento se evalúa en cinco dimensiones; los perfiles son exploratorios y no representan un ranking municipal.
+Este directorio reúne la **entrega definitiva** del proyecto: un informe divulgativo en formato PUCE, un notebook reproducible de Google Colab y las evidencias de su ejecución.
 
-## Contenido disponible en GitHub
+## Entregables definitivos publicados
 
-- [Notebook final auditado](Reto01_GIRS_2024_Colab_Final_AUDITADO.ipynb): cuaderno de 27 celdas listo para Google Colab; lee el CSV preparado de la edición 2024 y contrasta las cifras del informe.
-- [Informe editorial anterior](InformeReto01_PUCE_Revisado.pdf): documento previo a la corrección bibliográfica de la entrega definitiva; **no** confundir con el PDF final.
-- [Proyecto LaTeX de la revisión anterior](InformeReto01_PUCE_Proyecto_LaTeX.zip): antecedentes de edición.
+| Archivo | Contenido |
+|---|---|
+| [`Informe_FINAL_Reto01.pdf`](Informe_FINAL_Reto01.pdf) | **Informe definitivo**; formato PUCE y bibliografía revisada en APA 7 |
+| [`Reto01_GIRS_2024_Colab_Final_AUDITADO.ipynb`](Reto01_GIRS_2024_Colab_Final_AUDITADO.ipynb) | **Notebook final**, 27 celdas; usa CSV preparado del Hito 2 y realiza comprobaciones |
+| [`Reto01_GIRS_2024_Resultados_Colab.zip`](Reto01_GIRS_2024_Resultados_Colab.zip) | **Evidencias complementarias**: 8 PNG, 10 CSV y 1 JSON |
+| [`CONTROL_ARCHIVOS_FINALES.md`](CONTROL_ARCHIVOS_FINALES.md) | Tamaños y huellas de referencia de los archivos destinados a entrega |
 
-## Archivos definitivos que faltan por subir a GitHub
+### Versiones anteriores conservadas
 
-Los siguientes archivos **no están publicados aquí** todavía y no deben presentarse como existentes en el repositorio:
+- [`InformeReto01_PUCE_Revisado.pdf`](InformeReto01_PUCE_Revisado.pdf): revisión editorial **anterior**, no la entrega definitiva.
+- [`InformeReto01_PUCE_Proyecto_LaTeX.zip`](InformeReto01_PUCE_Proyecto_LaTeX.zip): fuentes de la revisión anterior.
 
-1. `Informe_Reto01_PUCE_ENTREGA_DEFINITIVA.pdf` — PDF final en formato PUCE con ajustes APA 7.
-2. `Reto01_GIRS_2024_Resultados_Colab.zip` — archivo ZIP generado por la ejecución real en Colab: 8 imágenes PNG, 10 tablas CSV y 1 JSON.
-3. Opcionalmente, `Reto01_ENTREGA_FINAL_AULA_VIRTUAL.zip` — paquete con los dos productos obligatorios.
+## Resumen del análisis
 
-Las huellas SHA-256 y los tamaños se registran en [CONTROL_ARCHIVOS_FINALES.md](CONTROL_ARCHIVOS_FINALES.md) para cotejar las cargas pendientes. Una vez añadidos, conviene actualizar también el README de la raíz.
+Se estudiaron **221** municipios en la auditoría y se construyeron dos escenarios de agrupamiento: **215 municipios (principal)** y **204 (sensibilidad conservadora)**. Se compararon **K-Means y Ward** para `k=2..6`, con cinco perfiles interpretables y un PCA utilizado para visualización.
 
-## Cifras de referencia comprobadas
+| Indicador | Resultado |
+|---|---:|
+| Silueta K-Means, k=5 | 0,593507 |
+| Silueta Ward, k=5 | 0,578667 |
+| ARI entre algoritmos | 0,879070 |
+| ARI medio entre semillas | 0,994993 |
+| ARI entre escenarios 215/204 | 0,841207 |
+| Varianza explicada PCA 2D | 64,7238 % |
 
-| Control | Valor |
-| --- | ---: |
-| K-Means, silueta k=5 | 0.593507 |
-| Ward, silueta k=5 | 0.578667 |
-| ARI K-Means frente a Ward | 0.879070 |
-| ARI medio entre semillas | 0.994993 |
-| Sensibilidad de muestras 215/204 (ARI) | 0.841207 |
-| PCA, variación explicada PC1 + PC2 | 64.7238 % |
+Los perfiles identifican similitudes estadísticas entre municipios. **No son un ranking de desempeño** ni establecen causalidad.
 
-Se conservan las decisiones documentadas en los Hitos 1–3; no se sustituyen el informe o las métricas por valores inventados.
+## Reproducibilidad y entrega
+
+El notebook utiliza por defecto un **commit fijo** con el CSV preparado del Hito 2 y verifica su integridad mediante SHA-256. Al ejecutarlo, genera sus tablas y gráficos y un ZIP con 19 evidencias. El CSV original íntegro de 213 columnas no se incluye en este repositorio.
+
+Para el Aula Virtual, los **dos productos obligatorios** son el PDF definitivo y el notebook `.ipynb`; el ZIP de resultados es soporte adicional.
+
+[Volver al README principal](../README.md).
